@@ -182,11 +182,16 @@
 // Xét lại thời gian hết hạn expires về những ngày trước đây
     // document.cookie = "name=; expires = Thu, 01 Jan 1950 00:00:00 UTC"; 
 // Hay có thể gọi hàm dựa vào name để xóa
-    function deleteCookie(cname) {
-        document.cookie = `${cname}=; expires = Thu, 01 Jan 1970 00:00:00 UTC`;
-    }
+    // function deleteCookie(cname) {
+    //     document.cookie = `${cname}=; expires = Thu, 01 Jan 1970 00:00:00 UTC`;
+    // }
 
-    deleteCookie("fullName");
+    // deleteCookie("fullName");
+
+// --------------------------------------------------------------------
+// Tổng kết:
+// BOM Window, Screen, Location, History, Navigator, Popup, Timing
+// Cookie: Tạo, lấy giá trị, đổi giá trị, xóa
 
 
 
